@@ -1,0 +1,54 @@
+.row{
+  display: flex;
+}
+
+
+.col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;  
+  margin: 1rem;
+  
+}
+.card{
+  width: 23rem;
+  height: 35rem;
+  border-radius: 5rem;
+  border: 0.1rem solid black;
+  margin: 0.2rem;
+}
+.period{
+  font-size: 1rem;
+}
+.card-text, li{
+  padding: 0.6rem;
+}
+.btn-primary{
+  margin-left: 4rem;
+  width: 15rem;
+  border-radius: 1rem;
+}
+
+#container{
+  
+  border: 1px solid black;
+  margin-left: 5rem;
+  padding: 5rem;
+  background-color: rgb(111, 166, 236);
+}
+
+
+.title{
+  font-size: 15;
+}
+li{
+  list-style-type:none;
+  padding:0px;
+  pointer-events: none;
+}
+.price-card{
+  display:flex;
+}
+.unlimited-text{
+  font-weight: bold;
+}
